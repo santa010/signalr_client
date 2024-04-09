@@ -2,6 +2,7 @@ name: signalr_client_core
 description: A flutter client for ASP.NET Core SignalR. The client is able to invoke server side hub functions and to receive method invocations issued by the server.
 version: 1.3.8
 homepage: https://github.com/cyberprophet/signalr_client
+publish_to: none
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
@@ -16,7 +17,10 @@ dependencies:
 
   web_socket_channel: ^2.4.0
 
-  sse_channel2: ^0.0.4
+  sse_channel2:
+    git:
+      url: git@github.com:santa010/sse_channel.git
+      ref: main
 
   message_pack_dart: ^2.0.1
 

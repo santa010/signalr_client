@@ -19,7 +19,7 @@ dependencies:
 
   sse_channel2:
     git:
-      url: git@github.com:santa010/sse_channel.git
+      url: git@github.com:goopti/sse_channel.git
       ref: main
 
   message_pack_dart: ^2.0.1
